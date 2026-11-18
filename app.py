@@ -16,7 +16,7 @@ with open(file_to_load, 'rb') as file:
     loaded_model = pickle.load(file)
 
 # --- Streamlit UI ---
-st.title("Loan Default Prediction")
+st.title("Owen Garwood's Loan Default Prediction")
 st.markdown("Enter a potential loan customer's details to predict their risk of default.")
 
 # User input. The ranges match the data the model was trained on.
